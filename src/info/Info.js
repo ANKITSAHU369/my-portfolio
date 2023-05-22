@@ -16,41 +16,37 @@ the site.
  */
 
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
+
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Ankit",
+    lastName: "Sahu",
+    initials: "Ankit Sahu", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Frontend Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'Fueled By Coffee'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+            emoji: '🏡',
+            text: 'Ind Cg 07'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Freelancing"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "anksa369@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://www.facebook.com/profile.php?id=100007371785768",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
@@ -60,17 +56,17 @@ export const info = {
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/ANKITSAHU369",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/ankit-sahu-om369/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/iankitsahu",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -78,62 +74,62 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Self-motivated and enthusiastic engineer with knowledge of programming languages and Web-development fundamentals.Completed B. Tech in year 2020 and thereafter Post Graduate Diploma in Computer Application in year 2021, Along with 6months of web development certification course in September 2022, Currently brushing up skills on the softwaredevelopment tools and expanding employment opportunity in IT and Tech industries for better advancement in my careerand to serve the company at the best of my ability.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['html-5', 'css-3','javascript', 'react', 'git', 'github', 'bootstrap', 'figma','ui/ux'],
+            exposedTo: ['Frontend Development']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Fitness Workout',
+            emoji: '🏋️‍♂️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
+            label: 'Sci-fi Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Novels',
+            emoji: '📚'
+        },
+        {
+            label: 'Cooking',
+            emoji: '🥘'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Buddhism UI",
+            live: "https://buddhism-ui.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            // source: "", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Blogging Website",
+            live: "https://blogging-website-react-next.netlify.app/",
+            // source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Seat Booking Management",
+            live: "https://seat-booking-system.netlify.app/",
+            // source: "https://github.com/paytonjewell",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Pharmacy Management Website ",
+            live: "https://pharmacy-management.netlify.app/",
+            // source: "https://github.com/paytonjewell",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Nuuk Housing Website",
+            live: "https://ankitsahu369.github.io/Nuuk-Website/",
+            // source: "https://github.com/paytonjewell",
             image: mock5
         }
     ]
