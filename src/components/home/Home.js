@@ -16,7 +16,7 @@ export default function Home() {
               height={{xs: '35vh', md: '40vh'}}
               borderRadius={'50%'} p={'0.5rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
          <Box>
-            <h1>Hi, I am <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
+            <h1 id = "emoji">Hi, I am <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand} role='img' aria-label="emoji">🤚</span>
             </h1>
             <h2>I'm {info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>
